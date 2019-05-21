@@ -1,3 +1,6 @@
 body {
   background-image: url("images/backgrounds/background-blur-clean-531880.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
