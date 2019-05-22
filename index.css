@@ -4,3 +4,13 @@ body {
   background-position: right top;
   background-attachment: fixed;
 }
+.head {
+    padding: 5px 5px;
+    border: double darkblue;
+    background-color: rgba(115, 251, 203, 0.75);
+}
+
+@media screen and (max-width: 1100px) {
+    .button1 {width: 49.5%}
+    .text1 {display:block; width: 99.4%}
+}
