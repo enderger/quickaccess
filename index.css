@@ -4,6 +4,11 @@ body {
   background-position: right top;
   background-attachment: fixed;
 }
+.head {
+    padding: 5px 5px;
+    border: double darkblue;
+    background-color: rgba(115, 251, 203, 0.75);
+}
 .button1:not(:hover) {
     border: 1px double black;
     background-color: rgb(115,251,203);
