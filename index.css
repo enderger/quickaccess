@@ -16,7 +16,7 @@ a:hover {
 	color: white;
 }
 ul {
-	background-color: rgba(115,251,203,.5);
+	background-color: rgba(115,251,203,.6);
 	border-style: double; 
 	border-color: darkblue;
 	list-style-type: none;
