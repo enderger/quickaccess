@@ -1,3 +1,4 @@
+<!DOCTYPE=html>
 <html>
   <header>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,21 +6,6 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="jscolor.js"></script>
     <script>
-	function startTime() {
-	   var today = new Date();
- 	   var h = today.getHours();
-  	   var m = today.getMinutes();
-	   var s = today.getSeconds();
-   	   m = checkTime(m);
-   	   s = checkTime(s);
-    	   document.getElementById('txt').innerHTML =
-    	   h + ":" + m + ":" + s;
-    	   var t = setTimeout(startTime, 500);
-	}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
-}
 function gistButton() {
 	if(document.getElementById("gist").style.display == "none") {
 		document.getElementById("gist").style.display = "block";
@@ -63,9 +49,11 @@ function RGBButton() {
   <body>
     <iframe src="https://duckduckgo.com/search.html?width=408&prefill=Search the Web" style="overflow:hidden;margin:0;padding:0;width:466px;height:40px;" frameborder="0"></iframe>
   </body>
+  <body>
   <div id="gist", style="display:none;"><iframe name="haste" src="https://www.hastebin.com", height="400px", width="400px"></iframe></div>
   <div id="md", style="display:none;"><iframe name="markdown" src="https://stackedit.io/app#", height=650px", width="97%" allowfullscreen></iframe></div>
   <div id="calc", style="display:none;"><iframe width="219" height="302" src="http://calculator-1.com/outdoor/?f=42aaff&amp;r=000000" scrolling="no" frameborder="0"></iframe></div>
-  <div id="pick", style="display:none;"><input class="jscolor">
+  <div id="pick", style="display:none;"><input class="jscolor">	  
 </div>
+  </body>
 </html>
