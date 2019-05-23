@@ -6,11 +6,11 @@ body {
 }
 p {
 font-family: rockwell;
-color: black;
+color: grey;
 font-size: large;
 }
 a {
-color: black;
+color: grey;
 }
 a:hover {
 	color: white;
