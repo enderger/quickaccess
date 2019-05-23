@@ -4,6 +4,28 @@ body {
   background-position: right top;
   background-attachment: fixed;
 }
+p {
+font-family: rockwell;
+color: lightgrey;
+font-size: large;
+}
+a {
+color: lightgrey;
+}
+a:hover {
+	color: white;
+}
+ul {
+	background-color: rgba(115,251,203,.34);
+	border-style: double; 
+	border-color: darkblue;
+	list-style-type: none;
+}
+li {
+	text-decoration: none;
+	display: block;
+	padding: 5px 5px;
+}
 .head {
     padding: 5px 5px;
     border: double darkblue;
